@@ -1,0 +1,18 @@
+{
+    "description": "Basic showcase of how to integrate ReactJS with a Neos package",
+    "type": "neos-package",
+    "name": "weissheiten/coaching-neospackagereactjs",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Weissheiten\\Coaching\\ReactJS\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Weissheiten.Coaching.NeosPackageWithReactJS"
+        }
+    }
+}
