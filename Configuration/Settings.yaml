@@ -3,11 +3,11 @@ Neos:
     modules:
       management:
         submodules:
-          ReactJSDemo:
+          NeosPackageWithReactJS:
             label: 'ReactJS Demo'
             controller: Weissheiten\Coaching\NeosPackageWithReactJS\Controller\DashboardController
             description: 'ReactJS Demo'
-            icon: graduation-cap
+            icon: icon-graduation-cap
             privilegeTarget: 'Weissheiten.Coaching.NeosPackageWithReactJS:DashboardActions'
             additionalResources:
               styleSheets:

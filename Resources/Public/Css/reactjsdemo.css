@@ -1,3 +1,4 @@
-h2{
-    color: indigo;
+.neos h2{
+    margin-top: 10pt;
+    color: goldenrod;
 }
