@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Weissheiten\\Coaching\\ReactJS\\": "Classes/"
+            "Weissheiten\\Coaching\\NeosPackageWithReactJS\\": "Classes/"
         }
     },
     "extra": {

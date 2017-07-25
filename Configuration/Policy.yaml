@@ -1,0 +1,11 @@
+privilegeTargets:
+  'Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege':
+     'Weissheiten.Coaching.NeosPackageWithReactJS:DashboardActions':
+        matcher: 'method(Weissheiten\Coaching\NeosPackageWithReactJS\Controller\DashboardController->indexAction())'
+
+roles:
+  'Neos.Neos:Administrator':
+    privileges:
+      -
+        privilegeTarget: 'Weissheiten.Coaching.NeosPackageWithReactJS:DashboardActions'
+        permission: GRANT
